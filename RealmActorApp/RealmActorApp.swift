@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct RealmActorAppApp: App {
+struct RealmActorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RealmActorAppView()
+                .onAppear {
+                    DBM.setup()
+                }
         }
     }
 }
