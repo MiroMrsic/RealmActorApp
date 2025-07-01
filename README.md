@@ -1,4 +1,4 @@
-# Simple Realm Actors Todo App
+# Simple Realm Actor Todo App
 
 This is a simple app demonstrating how to use the [Realm Database](https://realm.io/) with **Realm Actors** and async/await syntax.  
 The app allows you to create and retrieve "Todo" items, and it provides performance statistics for these operations.
